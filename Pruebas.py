@@ -7,4 +7,4 @@
 #Caratula todos los integrantes
 #Anexos con el repositorio y enlace del github para que lo veo
 #Diagramas? o simplemente para explicar nuestro codigo 
-#Funciona?
+a = 10
