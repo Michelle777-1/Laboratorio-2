@@ -31,19 +31,19 @@ def opciones(opcion):
     if opcion == 1:
         a = int(input("Ingrese el primer número: "))
         b = int(input("Ingrese el segundo número: "))
-        print("Máximo:", funcionesComparacion.maximo(a, b))
+        print(funcionesComparacion.maximo(a, b))
     elif opcion == 2:
         a = int(input("Ingrese el primer número: "))
         b = int(input("Ingrese el segundo número: "))
-        print("Mínimo:", funcionesComparacion.minimo(a, b))
+        print(funcionesComparacion.minimo(a, b))
     elif opcion == 3:
         a = int(input("Ingrese el primer número: "))
         b = int(input("Ingrese el segundo número: "))
-        print("¿Son iguales?:", funcionesComparacion.iguales(a, b))
+        print(funcionesComparacion.iguales(a, b))
     elif opcion == 4:
         a = int(input("Ingrese el primer número: "))
         b = int(input("Ingrese el segundo número: "))
-        print("¿Son diferentes?:", funcionesComparacion.diferentes(a, b))
+        print( funcionesComparacion.diferentes(a, b))
     elif opcion == 5:
         valor = input("Ingrese un valor:")
         es_un_numero(valor)
