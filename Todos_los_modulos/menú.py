@@ -39,11 +39,11 @@ def opciones(opcion):
     elif opcion == 3:
         a = int(input("Ingrese el primer número: "))
         b = int(input("Ingrese el segundo número: "))
-        print("¿Son iguales?:", funcionesComparacion.son_iguales(a, b))
+        print("¿Son iguales?:", funcionesComparacion.iguales(a, b))
     elif opcion == 4:
         a = int(input("Ingrese el primer número: "))
         b = int(input("Ingrese el segundo número: "))
-        print("¿Son diferentes?:", funcionesComparacion.son_diferentes(a, b))
+        print("¿Son diferentes?:", funcionesComparacion.diferentes(a, b))
     elif opcion == 5:
         valor = input("Ingrese un valor:")
         es_un_numero(valor)
