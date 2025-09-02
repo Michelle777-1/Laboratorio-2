@@ -11,8 +11,12 @@ def minimo(val1,val2):
         min=val2
     print("El valor mínimo es: ",min)
 def iguales(val1,val2):
-    print("¿Los números son iguales?")
-    return val1==val2
+    if val1==val2:
+        print("Los valores son iguales")
+    else:
+        print("Los valores no son iguales")
 def diferentes(val1,val2):
-    print("¿Los números son diferentes?")
-    return val1!=val2
+    if val1==val2:
+        print("Los valores son dierentes")
+    else:
+        print("Los valores no son diferentes")
