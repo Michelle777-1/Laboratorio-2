@@ -16,7 +16,7 @@ def iguales(val1,val2):
     else:
         print("Los valores no son iguales")
 def diferentes(val1,val2):
-    if val1==val2:
+    if val1!=val2:
         print("Los valores son dierentes")
     else:
         print("Los valores no son diferentes")
