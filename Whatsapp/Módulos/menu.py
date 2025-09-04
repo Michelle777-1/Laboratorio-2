@@ -37,7 +37,7 @@ while opcion != 4:
             if opcion3 == 1:
                 lista_contactos()
                 nombre = input("Ingrese el nombre del contacto:")
-                if nombre in contacto():
+                if nombre in contacto:
                     texto = input("Ingrese mensaje:")
                     enviar_msj(nombre,texto)
                 else:
