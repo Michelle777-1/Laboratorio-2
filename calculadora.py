@@ -26,7 +26,7 @@ while opcion != 9:
     elif opcion == 6:
         print("La raíz es", funciones_calculadora.raiz())
     elif opcion == 7:
-        print("El factorial es", funciones_calculadora.factorial())
+        print("El factorial es", funciones_calculadora.factorial_función())
     elif opcion == 8:
         print("La conversión es", funciones_calculadora.conversion())
     elif opcion == 9:
