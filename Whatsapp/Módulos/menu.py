@@ -1,4 +1,4 @@
-from Contactos import *
+from contactos import *
 from mensajes import *
 #from chats import *
 opcion = 1

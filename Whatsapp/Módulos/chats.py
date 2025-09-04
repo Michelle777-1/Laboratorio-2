@@ -1,5 +1,5 @@
 from .mensajes import enviar_msj, ver_mensajes
-from .Contactos import contacto, lista_contactos
+from .contactos import contacto, lista_contactos
 def iniciar_chat():
     if not contacto:
         print("No tiene contactos, agrega uno")
