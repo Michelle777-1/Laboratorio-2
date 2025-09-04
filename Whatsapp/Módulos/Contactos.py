@@ -9,12 +9,11 @@ def agregar_contacto():
 def eliminar_contacto():
     nombre = input("Ingrese nombre del contacto ha eliminar:")
     if nombre in contacto:
-        contacto.pop(nombre)
+        contacto.pop[nombre]
     else:
         print("Ese contacto no existe")
 def lista_contactos():
     print("--------Contactos--------")
     for nombre,numero in contacto.items():
         print(f"{nombre}: {numero}")
-    return contacto
     
