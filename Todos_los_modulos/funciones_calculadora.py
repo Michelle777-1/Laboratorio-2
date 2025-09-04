@@ -20,8 +20,8 @@ def división():
 def multiplicación():
     a = float(input("Ingrese número:"))
     b = float(input("Ingrese número:"))
-    suma = a+b
-    return suma
+    mult = a*b
+    return mult
 def potencia():
     a = float(input("Ingrese número:"))
     b = int(input("Ingrese número:"))
