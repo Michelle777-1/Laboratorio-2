@@ -45,7 +45,7 @@ while opcion != 4:
             elif opcion3 == 2:
                 lista_contactos()
                 nombre = input("Ingrese el nombre del contacto:")
-                if nombre in contacto():
+                if nombre in contacto:
                     ver_mensajes(nombre)
                 else:
                     print("Ese contacto no existe")
