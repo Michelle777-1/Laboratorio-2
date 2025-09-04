@@ -7,14 +7,14 @@ while opcion != 4:
     print("2. Mensajes")
     print("3. Chats")
     print("4. Salir")
-    opcion = int(input("Elige una opción:"))
+    opcion = int(input("Elija una opción: "))
     if opcion == 1:
         print("---WHATSAPP---")
         print("1. Agregar contacto")
         print("2. Eliminar contacto")
         print("3. Ver contactos")
         print("4. Salir")
-        opcion = int(input("Eliga una opción"))
+        opcion = int(input("Elija una opción: "))
         while opcion != 4:
             if opcion == 1:
                 agregar_contacto()
@@ -29,19 +29,19 @@ while opcion != 4:
             print("1. Enviar mensaje")
             print("2. Ver mensaje")
             print("3. Salir")
-            opcion = int(input("Eliga una opción"))
+            opcion = int(input("Elija una opción: "))
             while opcion != 3:
                 if opcion == 1:
                     lista_contactos()
-                    nombre = input("Ingrese el nombre del contacto:")
+                    nombre = input("Ingrese el nombre del contacto: ")
                     if nombre in contacto():
-                        texto = input("Ingrese mensaje:")
+                        texto = input("Ingrese mensaje: ")
                         enviar_msj(nombre,texto)
                     else:
                         print("Ese contacto no existe")
                 elif opcion == 2:
                     lista_contactos()
-                    nombre = input("Ingrese el nombre del contacto:")
+                    nombre = input("Ingrese el nombre del contacto: ")
                     if nombre in contacto():
                         ver_mensajes(nombre)
                     else:
