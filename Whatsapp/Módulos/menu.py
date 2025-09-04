@@ -12,13 +12,12 @@ while opcion != 4:
     if opcion == 1:
         opcion2 = 1
         while opcion != 4:
-        print("---WHATSAPP---")
-        print("1. Agregar contacto")
-        print("2. Eliminar contacto")
-        print("3. Ver contactos")
-        print("4. Salir")
-        opcion = int(input("Eliga una opción"))
-        while opcion != 4:
+            print("---WHATSAPP---")
+            print("1. Agregar contacto")
+            print("2. Eliminar contacto")
+            print("3. Ver contactos")
+            print("4. Salir")
+            opcion = int(input("Eliga una opción"))
             if opcion == 1:
                 agregar_contacto()
             elif opcion == 2:
@@ -35,24 +34,23 @@ while opcion != 4:
             print("2. Ver mensaje")
             print("3. Salir")
             opcion = int(input("Eliga una opción"))
-            while opcion != 3:
-                if opcion == 1:
-                    lista_contactos()
-                    nombre = input("Ingrese el nombre del contacto:")
-                    if nombre in contacto():
-                        texto = input("Ingrese mensaje:")
-                        enviar_msj(nombre,texto)
-                    else:
-                        print("Ese contacto no existe")
-                elif opcion == 2:
-                    lista_contactos()
-                    nombre = input("Ingrese el nombre del contacto:")
-                    if nombre in contacto():
-                        ver_mensajes(nombre)
-                    else:
-                        print("Ese contacto no existe")
-                elif opcion == 3:
-                    print("saliendo")
+            if opcion == 1:
+                lista_contactos()
+                nombre = input("Ingrese el nombre del contacto:")
+                if nombre in contacto():
+                    texto = input("Ingrese mensaje:")
+                    enviar_msj(nombre,texto)
+                else:
+                    print("Ese contacto no existe")
+            elif opcion == 2:
+                lista_contactos()
+                nombre = input("Ingrese el nombre del contacto:")
+                if nombre in contacto():
+                    ver_mensajes(nombre)
+                else:
+                    print("Ese contacto no existe")
+            elif opcion == 3:
+                print("saliendo")
     elif opcion == 3:
         print("---WHATSAPP---")
         #iniciar_chat()    
