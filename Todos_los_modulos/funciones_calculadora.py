@@ -28,6 +28,7 @@ def potencia():
     potencia = a**b
     return potencia
 def raiz_cuadrada():
+    a = float(input("Ingrese número:"))
     if a>=0:
         return math.sqrt(a)
     else:
