@@ -27,11 +27,11 @@ def potencia():
     b = int(input("Ingrese número:"))
     potencia = a**b
     return potencia
-def raiz():
-    a = float(input("Ingrese número:"))
-    b = float(input("Ingrese número:"))
-    suma = a+b
-    return suma
+def raiz_cuadrada():
+    if a>=0:
+        return math.sqrt(a)
+    else:
+        print( "Error. No existe raíz de número negativo")
 def factorial_función():
     a = float(input("Ingrese número:"))
     factorial = math.factorial(a)
