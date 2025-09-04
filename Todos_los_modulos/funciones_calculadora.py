@@ -37,7 +37,17 @@ def factorial_función():
     factorial = math.factorial(a)
     return factorial
 def conversion():
-    a = float(input("Ingrese número:"))
-    b = float(input("Ingrese número:"))
-    suma = a+b
-    return suma
+    print("Opción de conversión")
+    print("1. Grados")
+    print("2. Radianes")
+    opción = int(input("Ingrese opción"))
+    if opción == 1:
+        num = input("Ingrese número a convertir:")
+        grados = math.degrees(num)
+        return grados
+    elif opción == 2: 
+        num = input("Ingrese número a convertir:")
+        radianes = math.radians(num)
+        return radianes
+    else:
+        print("No está en las opciónes")
