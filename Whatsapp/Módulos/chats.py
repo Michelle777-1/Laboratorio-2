@@ -10,7 +10,7 @@ def iniciar_chat():
         print("Ese contacto no existe")
         return
     while True:
-        print("---Chat con ",nombre"---")
+        print("---Chat con ",nombre,"---")
         print("1 Enviar mensaje")
         print("2 Ver mensajes")
         print("3 Volver al menú")
