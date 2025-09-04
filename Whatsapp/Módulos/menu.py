@@ -1,6 +1,6 @@
 from contactos import *
 from mensajes import *
-#from chats import *
+from chats import *
 opcion = 1
 while opcion != 4:
     print("---WHATSAPP---")
@@ -52,7 +52,8 @@ while opcion != 4:
             elif opcion == 3:
                 print("saliendo")
     elif opcion == 3:
-        print("---WHATSAPP---")
-        #iniciar_chat()    
+        print("-----WHATSAPP-----")
+        print("Ingresando a chats")
+        iniciar_chat()    
     elif opcion == 4:
             print("saliendo")
