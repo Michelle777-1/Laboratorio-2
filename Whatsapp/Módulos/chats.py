@@ -1,4 +1,4 @@
-from .mensajes import enviar_msj, ver_mensajes
+from mensajes import enviar_msj, ver_mensajes
 from .contactos import contacto, lista_contactos
 def iniciar_chat():
     if not contacto:
