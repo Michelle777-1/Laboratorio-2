@@ -14,21 +14,21 @@ while opcion != 9:
 
     opcion = int(input("Seleccione una opción: "))
     if opcion == 1:
-        print("La suma es", funciones_calculadora.suma())
+        print("La suma es: ", funciones_calculadora.suma())
     elif opcion == 2:
-        print("La resta es", funciones_calculadora.resta())
+        print("La resta es: ", funciones_calculadora.resta())
     elif opcion == 3:
-        print("La dvisión es", funciones_calculadora.división())
+        print("La dvisión es: ", funciones_calculadora.división())
     elif opcion == 4:
-        print("La multiplicación es", funciones_calculadora.multiplicación())
+        print("La multiplicación es: ", funciones_calculadora.multiplicación())
     elif opcion == 5:
-        print("La potencia es", funciones_calculadora.potencia())
+        print("La potencia es: ", funciones_calculadora.potencia())
     elif opcion == 6:
-        print("La raíz es", funciones_calculadora.raiz())
+        print("La raíz cuadrada es: ", funciones_calculadora.raiz())
     elif opcion == 7:
-        print("El factorial es", funciones_calculadora.factorial_función())
+        print("El factorial es: ", funciones_calculadora.factorial_función())
     elif opcion == 8:
-        print("La conversión es", funciones_calculadora.conversion())
+        print("La conversión es: ", funciones_calculadora.conversion())
     elif opcion == 9:
         print("Fin")
     else:
