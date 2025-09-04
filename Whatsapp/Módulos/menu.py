@@ -16,8 +16,8 @@ while opcion != 4:
             print("1. Agregar contacto")
             print("2. Eliminar contacto")
             print("3. Ver contactos")
-            print("4. Salir")
-            opcion2 = int(input("Eliga una opción"))
+            print("4. Volver al menú")
+            opcion2 = int(input("Eliga una opción:"))
             if opcion2 == 1:
                 agregar_contacto()
             elif opcion2 == 2:
@@ -25,15 +25,15 @@ while opcion != 4:
             elif opcion2 == 3:
                 lista_contactos()
             elif opcion2 == 4:
-                print("Saliendo")        
+                print("Volviendo al menú principal")        
     elif opcion == 2:
         opcion3 = 1
         while opcion3 != 3:
             print("---WHATSAPP---")
             print("1. Enviar mensaje")
             print("2. Ver mensaje")
-            print("3. Salir")
-            opcion3 = int(input("Eliga una opción"))
+            print("3. Volver al menú")
+            opcion3 = int(input("Eliga una opción:"))
             if opcion3 == 1:
                 lista_contactos()
                 nombre = input("Ingrese el nombre del contacto:")
@@ -50,7 +50,7 @@ while opcion != 4:
                 else:
                     print("Ese contacto no existe")
             elif opcion3 == 3:
-                print("saliendo")
+                print("Volviendo al menú principal")
     elif opcion == 3:
         print("-----WHATSAPP-----")
         print("Ingresando a chats")
