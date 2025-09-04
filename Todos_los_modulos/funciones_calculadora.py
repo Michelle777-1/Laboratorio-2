@@ -42,11 +42,11 @@ def conversion():
     print("2. Radianes")
     opción = int(input("Ingrese opción"))
     if opción == 1:
-        num = input("Ingrese número a convertir:")
+        num = int(input("Ingrese número a convertir:"))
         grados = math.degrees(num)
         return grados
     elif opción == 2: 
-        num = input("Ingrese número a convertir:")
+        num = int(input("Ingrese número a convertir:"))
         radianes = math.radians(num)
         return radianes
     else:
