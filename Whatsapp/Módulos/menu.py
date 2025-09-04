@@ -54,7 +54,12 @@ def menu_real():
                     print("Volviendo al menú principal")
         elif opcion == 3:
             print("-----WHATSAPP-----")
-            print("Ingresando a chats")
-            iniciar_chat()    
+            print("1. Ingresar a chats")
+            print("2. Volver al menú")
+            opcion4 = int(input("Eliga una opción:"))
+            if opcion4 == 1:
+                iniciar_chat() 
+            elif opcion4 == 2:
+                print("2. Volver al menú")   
         elif opcion == 4:
             print("saliendo")
