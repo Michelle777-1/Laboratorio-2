@@ -1,4 +1,4 @@
-from Contactos import *
+from contactos import *
 from mensajes import *
 opcion = 1
 while opcion != 4:
