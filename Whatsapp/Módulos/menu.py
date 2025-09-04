@@ -1,14 +1,15 @@
-from contactos import *
-from mensajes import *
-from chats import *
-opcion = 1
-while opcion != 4:
-    print("---WHATSAPP---")
-    print("1. Contactos")
-    print("2. Mensajes")
-    print("3. Chats")
-    print("4. Salir")
-    opcion = int(input("Elija una opción: "))
+from Módulos.contactos import *
+from Módulos.mensajes import *
+from Módulos.chats import *
+def menu_real():
+    opcion = 1
+    while opcion != 4:
+        print("---WHATSAPP---")
+        print("1. Contactos")
+        print("2. Mensajes")
+        print("3. Chats")
+        print("4. Salir")
+        opcion = int(input("Elija una opción: "))
     if opcion == 1:
         opcion2 = 1
         while opcion2 != 4:
